@@ -66,7 +66,7 @@ All viewports were included (except for the 4k view), in case the observer wishe
 </div>
 
 ### Links:
-- Live Site URL: [Website Link - Click Me](https://3-column-prev-card-component.vercel.app/)
+- Live Site URL: [Website Link - Click Me](https://mark-siazon.github.io/FM-3-Column-Prev_Card-Component/)
 - Solution URL: [FrontEndMentor - Click Me](https://www.frontendmentor.io/solutions/3column-preview-card-component-mobilefirst-approach-flexbox-KaR_Tn8TXn)
 
 ## My process:
