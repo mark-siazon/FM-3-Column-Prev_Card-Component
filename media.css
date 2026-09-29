@@ -1,0 +1,88 @@
+/* Tablet & Up */
+@media screen and (min-width:768px) {
+
+
+  main{
+    width: var(--desktop);
+    margin: 10vh 7.5vw; /* ADJUST: Margin of main-ctn */
+  }
+  
+  main > div{
+    flex-direction: row;
+  }
+
+  .main-ctn section{
+    padding: 3rem 1.75rem 3rem 2.5rem; /* ADJUST: Spacing of contents */
+  }
+
+  .card-main-info{
+    max-height: 190px;
+  }
+
+  .card-info{
+    font-size: 0.85rem;
+    padding-right: 0rem;
+  }
+
+  /* ## Card Btn */
+  .btn-ctn{
+    margin: 3.25rem 0 0;
+  }
+
+  .btn{
+    font-size: 0.75rem;
+  }
+
+  /***** CTN-1 *****/
+  .main-ctn section:nth-child(1){
+    border-radius: 15px 0 0 15px;
+  }
+
+  /***** CTN-3 *****/
+  .main-ctn section:nth-child(3){
+    border-radius: 0 15px 15px 0;
+  }
+}
+
+/* 820px & Up */
+@media screen and (min-width:820px) {
+  .card-main-info{
+    height: 180px;
+  }
+}
+
+/* 920px & Up */
+@media screen and (min-width:920px) {
+  .card-info{
+    font-size: 0.90rem;
+  }
+
+  .card-main-info{
+    height: 185px;
+  }
+
+  .btn{
+    font-size: 0.85rem;
+  }
+
+  main{
+    margin: 10vh 12.5vw; /* ADJUST: Margin of main-ctn */
+  }
+}
+
+/* Laptop & Up */
+@media screen and (min-width:1024px) {
+  .card-info{
+    padding-right: 2rem;
+  }
+  
+  .card-main-info{
+    height: 190px;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .card-main-info{
+    height: 160px;
+  }
+}
